@@ -256,8 +256,8 @@ def export(users, group_meta, group_ids, fmt: str):
 
 def main():
     console.print(Panel.fit(
-        "[bold cyan]Telegram Common Members Finder[/bold cyan]\n"
-        "[dim]By asmpro[/dim]",
+        "[bold cyan]tg-intersect[/bold cyan]\n"
+        "[dim]By Ahmed Abdelmageed[/dim]",
         border_style="cyan",
         padding=(1, 6),
     ))
@@ -301,3 +301,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
